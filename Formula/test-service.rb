@@ -3,8 +3,8 @@ class TestService < Formula
   homepage "https://dev0.kargirwar.com"
   url "https://break-timer.kargirwar.com/release.zip"
   version "1.0"
-  license "MIT"
   sha256 "99a647c5cc798134c1057bfe7f36d06e6f48c983a862b49dffbe377236c81b8a"
+  license "MIT"
 
   depends_on "go" => :build
 
