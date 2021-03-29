@@ -1,8 +1,10 @@
 class TestService < Formula
   desc "This service has been created to test brew"
   homepage "https://dev0.kargirwar.com"
-  url "git@github.com:kargirwar/test-service.git"
+  url "https://break-timer.kargirwar.com/release.zip"
   version "1.0"
+  license "MIT"
+  sha256 "99a647c5cc798134c1057bfe7f36d06e6f48c983a862b49dffbe377236c81b8a"
 
   depends_on "go" => :build
 
