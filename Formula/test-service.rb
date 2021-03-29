@@ -2,9 +2,6 @@ class TestService < Formula
   desc ""
   homepage ""
   url "git@github.com:kargirwar/test-service.git"
-  version ""
-  sha256 ""
-  license ""
 
   depends_on "go" => :build
 
