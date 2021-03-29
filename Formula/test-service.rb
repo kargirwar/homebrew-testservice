@@ -12,6 +12,4 @@ class TestService < Formula
     system "go", "build", *std_go_args
   end
 
-  test do
-  end
 end
