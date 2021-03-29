@@ -1,6 +1,6 @@
 class TestService < Formula
-  desc ""
-  homepage ""
+  desc "Test service description"
+  homepage "https://dev0.kargirwar.com"
   url "git@github.com:kargirwar/test-service.git"
 
   depends_on "go" => :build
