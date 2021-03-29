@@ -13,6 +13,6 @@ class TestService < Formula
   end
 
   test do
-    assert_match "Version 1.0", shell_output(bin/"test-service -v", 255)
+    assert_match "Version 1.0", shell_output(bin/"test-service -v", 0)
   end
 end
