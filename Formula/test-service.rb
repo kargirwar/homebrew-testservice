@@ -7,6 +7,11 @@ class TestService < Formula
   license "MIT"
 
   bottle :unneeded
+
+  def install
+    bin.install "test-service"
+  end
+
   test do
     assert_match "Version 1.0", shell_output(bin/"test-service -v")
   end
