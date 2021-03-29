@@ -11,4 +11,8 @@ class TestService < Formula
   def install
     system "go", "build", *std_go_args
   end
+
+  test do
+    assert_match "Version 1.0", shell_output(bin/"test-service -v", 255)
+  end
 end
